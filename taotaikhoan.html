@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tạo tài khoản</title>
+    <p>
+      <a href="index.html" taget="_self" title="click vào để quay về trang chủ"
+        >☚back home</a
+      >
+    </p>
+  </head>
+  <body>
+    <center>
+      <from action="dangnhap.html" method="get" name="form"></from>
+      <label>Tên đăng nhập</label>
+      <input type="text" placeholder="tên đăng nhập" name="tendangnhap" />
+      <br />
+      <lable>Mật khẩu</lable>
+      <input type="password" placeholder="nhập mật khẩu" name="matkhau" />
+      <br />
+      <label>Ngày sinh</label>
+      <input type="date" />
+      <br />
+      <lable>Quốc Tịch</lable>
+      <select name="quoctich">
+        <option valua="vietnam">Việt Nam</option>
+        <option valua="nhatban">Nhật Bản</option>
+        <option valua="lao">Lào</option>
+        <option valua="trungquoc">Trung Quốc</option>
+        <option valua="mongco">Mông Cổ</option>
+        <option valua="mongtan">Mông Tân</option>
+      </select>
+      <br />
+      <lable>Chọn giới tính </lable> <br />
+      Nam <input type="radio" value="nam" name="gioitinh" /> Nữ
+      <input type="radio" value="nu" name="gioitinh" /> Khác
+      <input type="radio" value="khac" name="gioitinh" />
+      <br />
+      <lable
+        ><ins
+          >Bạn có đồng ý với chính sách dữ liệu và các khoản điều kiện đưa ra
+          của</ins
+        ><mark> NGỌC ĐẠT</mark></lable
+      >
+      CÓ <input type="checkbox" valua="co" name="check" />
+      <br />
+      <br />
+      <br />
+      <lable>Hòm thư đóng góp ý kiến</lable>
+      <textarea name="binhluan" placeholder="Nội dung phản hồi"></textarea>
+    </center>
+    <br />
+    <br />
+    <br />
+    <br />
+    <center>
+      <img src="img/OIG4.jpg" width="150xp" /> <br />
+      <input type="submit" name="dangnhap" />
+    </center>
+  </body>
+</html>
